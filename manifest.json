@@ -1,0 +1,103 @@
+{
+  "required_api_version": "2",
+  "name": "Css Unit Converter",
+  "description": "Css Unit Converter",
+  "developer_name": "Ronnasayd Machado",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "px",
+      "type": "keyword",
+      "name": "px",
+      "description": "Pixels",
+      "default_value": "px"
+    },
+    {
+      "id": "rem",
+      "type": "keyword",
+      "name": "rem",
+      "description": "Rem",
+      "default_value": "rem"
+    },
+    {
+      "id": "em",
+      "type": "keyword",
+      "name": "em",
+      "description": "Em",
+      "default_value": "em"
+    },
+    {
+      "id": "in",
+      "type": "keyword",
+      "name": "in",
+      "description": "In",
+      "default_value": "in"
+    },
+    {
+      "id": "pt",
+      "type": "keyword",
+      "name": "pt",
+      "description": "Pt",
+      "default_value": "pt"
+    },
+    {
+      "id": "cm",
+      "type": "keyword",
+      "name": "cm",
+      "description": "Cm",
+      "default_value": "cm"
+    },
+    {
+      "id": "mm",
+      "type": "keyword",
+      "name": "mm",
+      "description": "Mm",
+      "default_value": "mm"
+    },
+    {
+      "id": "pc",
+      "type": "keyword",
+      "name": "pc",
+      "description": "Pc",
+      "default_value": "pc"
+    },
+    {
+      "id": "vh",
+      "type": "keyword",
+      "name": "vh",
+      "description": "Vh",
+      "default_value": "vh"
+    },
+    {
+      "id": "vw",
+      "type": "keyword",
+      "name": "vw",
+      "description": "Vw",
+      "default_value": "vw"
+    },
+    {
+      "id": "base",
+      "type": "text",
+      "name": "Base text value",
+      "description": "base text value in pixels",
+      "default_value": "16"
+    },
+    {
+      "id": "width",
+      "type": "text",
+      "name": "Your width screen",
+      "description": "Your width screen",
+      "default_value": "1366"
+    },
+    {
+      "id": "height",
+      "type": "text",
+      "name": "Your height screen",
+      "description": "Your height screen",
+      "default_value": "768"
+    }
+  ]
+}

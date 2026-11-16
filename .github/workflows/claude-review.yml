@@ -1,0 +1,16 @@
+# Copy to .github/workflows/claude-review.yml in each repository to review.
+name: Claude review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  review:
+    # why: a called workflow can only downgrade the GITHUB_TOKEN it receives, so the caller grants write.
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: Ronnasayd/claude-pr-review/.github/workflows/claude-review.yml@v1
+    secrets:
+      CLAUDE_TOKENS: ${{ secrets.CLAUDE_TOKENS }}
